@@ -1,5 +1,7 @@
 # Projeto Mitch-S.O.S 
 
+<img src="fotos/frente.jpg" alt="Robô">
+
 # INTRODUÇÃO
 
 Este projeto é um protótipo de um sistema de assistência destinado a ajudar pessoas em situações de alagamento ou enchentes. Utilizando o microcontrolador ESP8266, a ideia é criar uma solução que possa ser expandida para um modelo em cápsula, facilitando o resgate e a comunicação em áreas de difícil acesso.
