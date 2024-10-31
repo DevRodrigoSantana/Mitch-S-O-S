@@ -29,7 +29,9 @@ Python - Visão Computacional
 Funcionalidade: Utiliza a biblioteca MediaPipe para reconhecimento de gestos com a câmera. Identifica se todos os dedos estão levantados, apenas um ou se a mão está fechada.
 Comandos:
 socorro: Enviado quando ambas as mãos estão levantadas ou uma mão está com todos os dedos levantados (dependendo do contexto).  Após isso envia ao Websocket que passa ao ESP8266 que retorna a latitude e longitude 
-podendo assim abri um mapa com a localização do robô.
+podendo assim abrir um mapa com a localização do robô.
+
+
 <img src="fotos/Mapa.png" alt="Robô" width="300">
 
 parar: Enviado quando uma mão está fechada ou há inconsistências entre as mãos.
