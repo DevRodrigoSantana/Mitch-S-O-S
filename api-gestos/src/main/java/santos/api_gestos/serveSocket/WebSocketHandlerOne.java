@@ -26,10 +26,10 @@ public class WebSocketHandlerOne extends TextWebSocketHandler {
         String payload = message.getPayload();
         System.out.println("Mensagem recebida: " + payload);
 
-        // Aqui, enviamos a mensagem recebida (da página) para todos os dispositivos conectados, incluindo o ESP8266
+        
         synchronized (sessions) {
             for (WebSocketSession s : sessions) {
-                if (s.isOpen() && !s.equals(session)) {  // Enviar para todos, menos o remetente
+                if (s.isOpen() && !s.equals(session)) { 
                     s.sendMessage(new TextMessage(payload));
                 }
             }
