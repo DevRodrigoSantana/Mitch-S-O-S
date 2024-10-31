@@ -1,6 +1,6 @@
 # Projeto Mitch-S.O.S 
 
-<img src="fotos/frente.jpg" alt="Robô">
+<img src="fotos/frente.jpg" alt="Robô" width="300">
 
 # INTRODUÇÃO
 
